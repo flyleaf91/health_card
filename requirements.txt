@@ -1,0 +1,5 @@
+paddlepaddle
+shapely
+paddleocr
+zxing
+click

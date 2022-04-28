@@ -1,4 +1,6 @@
-import card
+import os,time,re,json,logging,csv,copy,zxing,shutil
+from threading import Thread
+from card import Card
 
 class Heshuan(Card):
    

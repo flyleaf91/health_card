@@ -1,3 +1,7 @@
+import os,time,re,json,logging,csv,copy,zxing,shutil
+from threading import Thread
+from card import Card
+
 class Yuekangma(Card):
    
     def __init__(self,img_path="粤康码/",result_file="粤康码解码信息.csv"):

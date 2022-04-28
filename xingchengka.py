@@ -1,3 +1,7 @@
+import os,time,re,json,logging,csv,copy,zxing,shutil
+from threading import Thread
+from card import Card
+
 class Xingchengka(Card):
    
     def __init__(self,img_path="行程卡/",result_file="行程卡解码信息.csv"):
